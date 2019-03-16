@@ -1,11 +1,11 @@
-#Problem:
+# Problem:
 
 Find if the array has duplicates - solve using sorting and hash map
 
-#Examples:
+# Examples:
 
-#Solutions:
+# Solutions:
 
-#Test Cases:
+# Test Cases:
 
-#Complexities:
+# Complexities:

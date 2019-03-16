@@ -2,12 +2,12 @@
 
 Given a sentence, reverse the words of the sentence. 
 
-#Examples:
+# Examples:
 
 For example, "i live in a house" becomes "house a in live i". - Solve using reverse array traversal
 
-#Solutions:
+# Solution:
 
-#Test Cases:
+# Test Cases:
 
-#Complexities:
+# Complexities:

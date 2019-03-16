@@ -1,11 +1,11 @@
-#Problem:
+# Problem:
 
 Given an array of integers and a val x, find a pair of integers that sums up to x. - solve using sorting and hash map
 
-#Examples:
+# Examples:
 
-#Solutions:
+# Solution:
 
-#Test Cases:
+# Test Cases:
 
-#Complexities:
+# Complexities:
