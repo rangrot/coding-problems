@@ -1,12 +1,12 @@
-# Majority Number 
-## Problem
+# Problem:
+
 Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 
 You may assume that the array is non-empty and the majority element always exist in the array.
 
-Note:
+Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+#Examples:
 
 >Example 1:
 >
@@ -17,6 +17,12 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 >
 >Input: [2,2,1,1,1,2,2]
 >Output: 2
+ 
+#Solutions:
+
+#Test Cases:
+
+#Complexities:
 
 
-## Solution
+
