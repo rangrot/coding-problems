@@ -3,7 +3,7 @@
 
 #define ENABLE_DEBUG 0
 
-void sortArray(int* a, int len)
+void quickSortArray(int* a, int len)
 {
 
 }
@@ -22,7 +22,7 @@ void duplicatesInArraySorting(int *a, int len)
     return;
   }
 
-  sortArray(a, len);
+  quickSortArray(a, len);
 
   for (int i = 0; i < len - 1; i++)
   {
@@ -51,7 +51,7 @@ int main()
 {
   //Test Cases
   int a[] = {1,1,3,5,8,8,12,15,19,19}; //Standard case sorted
-  int a[] = {1,5,18,2,8,1,12,9,7,5}; //Standard case unsorted
+  //int a[] = {1,5,18,2,8,1,12,9,7,5}; //Standard case unsorted
   //int a[] = {1,1,1,1,1}; //All duplicates
   //int a[] = {1,2,3,4,5,6}; //No duplicates
   //int a[] = {1,2,2,2,5,6}; //3 continues duplicates
