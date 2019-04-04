@@ -10,6 +10,6 @@ Each problem has a README.md file, which outlines the problem statement, solutio
 
 *Note:* I will keep adding to this list as things progress, this will probably have links to exact problems present in the repo.
 
-Language Used: C (unless specifically specified in the README file of the problem)
+Language Used: C11 (unless otherwise specified in the README file of the problem)
 
 Compiler: GCC

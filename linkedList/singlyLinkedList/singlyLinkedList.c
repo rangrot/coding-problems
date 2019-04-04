@@ -175,7 +175,7 @@ void traverseList(struct Node **head, uint8_t pos, int customVal)
  * 
  * @return int 
  */
-int main()
+void testSinglyLinkedList()
 {
   struct Node *newList = NULL;
   struct Node *customNode = NULL;

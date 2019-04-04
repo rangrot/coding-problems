@@ -17,7 +17,7 @@ int singleNumber(int* arr, int size)
   return res;
 }
 
-int main()
+void testSingleNumber()
 {
   int size;
   int arr[] = {1, 3, 7, 5, 1, 7, 3, 2, 8, 2, 5};

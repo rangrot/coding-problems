@@ -47,7 +47,7 @@ void duplicatesInArraySorting(int *a, int len)
 
 void duplicatesInArrayHashMap(int* a, int len);
 
-int main()
+void duplicatesInAnArray()
 {
   //Test Cases
   int a[] = {1,1,3,5,8,8,12,15,19,19}; //Standard case sorted

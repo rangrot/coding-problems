@@ -54,3 +54,11 @@ dkms.conf
 #vs studio
 *.vscode/
 *.json
+*.vs/
+
+#Code blocks project settings
+*.cbp
+*.depend
+
+#Binary folder
+bin
