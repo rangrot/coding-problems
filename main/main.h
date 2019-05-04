@@ -15,6 +15,7 @@
 
 #include "../arrayAndString/duplicatesInArray/duplicatesInArray.h"
 #include "../arrayAndString/reverseOrderOfArray/reverseOrderOfArray.h"
+#include "../arrayAndString/towSumProblem/twoSumProblem.h"
 #include "../bitManipulationProblems/baseConversion/baseConversion.h"
 #include "../bitManipulationProblems/flipBits/flipBits.h"
 #include "../bitManipulationProblems/majorityNumber/majorityNum.h"

@@ -59,6 +59,7 @@ dkms.conf
 #Code blocks project settings
 *.cbp
 *.depend
+*.layout
 
 #Binary folder
 bin

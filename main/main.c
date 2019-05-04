@@ -17,9 +17,13 @@ int main()
         printf("\r\n");
         printf ("-------Flip Bits---------\r\n");
         flipBits();
-        #endif
+        printf("\r\n");
         printf ("-------Reverse the given integer Array---------\r\n");
         testReverseArray();
+        printf("\r\n");
+        #endif
+        printf ("-------Two Sum Problem---------\r\n");
+        testTwoSumProblem();
         printf("\r\n");
         return 0;
 }
