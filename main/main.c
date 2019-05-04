@@ -21,9 +21,12 @@ int main()
         printf ("-------Reverse the given integer Array---------\r\n");
         testReverseArray();
         printf("\r\n");
-        #endif
         printf ("-------Two Sum Problem---------\r\n");
         testTwoSumProblem();
+        printf("\r\n");
+        #endif
+        printf ("-------Sorted Continues Sub Array Problem---------\r\n");
+        testSortedContinuesSubArrary();
         printf("\r\n");
         return 0;
 }

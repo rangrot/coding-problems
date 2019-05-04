@@ -2,11 +2,16 @@
 
 void printArray(int arr[], int size)
 {
+    if(size > 0)
+        printf("[");
+    else
+        printf("[ ");
+
     for (int i = 0; i < size; i++)
     {
-        printf("%d,", arr[i]);
+        printf("%d ", arr[i]);
     }
-    printf("\r\n");
+    printf("\b]\r\n");
 }
 
 
