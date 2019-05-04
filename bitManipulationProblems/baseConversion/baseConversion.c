@@ -1,6 +1,5 @@
-#include "baseConversion.h"
-#include <stdio.h>
-#include <string.h>
+#include "../../main/main.h"
+
 
 /*------------------Utility Functions-------------------------*/
 /**
@@ -43,7 +42,7 @@ int utilValForChar(char c)
  * Utility function to reverse a string 
  * @param str: Input string
  */
-void utilStrev(char *str)
+void utilStrRev(char *str)
 {
   int len = (int)strlen(str);
   for (int i = 0; i < len / 2; i++)
@@ -72,17 +71,18 @@ char *decToBase(char res[], int base, int num)
 
   /*
   Way to convert to any base is by dividing the number by base
-  repetedly and taking the remainder.
+  repeatedly and taking the remainder.
   */
   while (num > 0)
   {
     res[i++] = utilCharForVal(num % base);
     num /= base;
   }
+
   res[i] = '\0';
 
   /* Reverse the result*/
-  utilStrev(res);
+  utilStrRev(res);
 
   return res;
 }

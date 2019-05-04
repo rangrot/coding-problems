@@ -1,7 +1,6 @@
-#include "stdio.h"
-#include "stdint.h"
+#include "../../main/main.h"
 
-#define ENABLE_DEBUG 0
+
 
 void quickSortArray(int* a, int len)
 {
