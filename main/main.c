@@ -27,9 +27,12 @@ int main()
         printf ("-------Sorted Continues Sub Array Problem---------\r\n");
         testSortedContinuesSubArrary();
         printf("\r\n");
-        #endif
         printf ("-------Dutch National Flag Problem---------\r\n");
         testDutchNationalFlag();
+        printf("\r\n");
+        #endif
+        printf ("-------All zeroes to the end of array Problem---------\r\n");
+        testZerosToTheEnd();
         printf("\r\n");
         return 0;
 }
