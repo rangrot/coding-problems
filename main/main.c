@@ -24,9 +24,12 @@ int main()
         printf ("-------Two Sum Problem---------\r\n");
         testTwoSumProblem();
         printf("\r\n");
-        #endif
         printf ("-------Sorted Continues Sub Array Problem---------\r\n");
         testSortedContinuesSubArrary();
+        printf("\r\n");
+        #endif
+        printf ("-------Dutch National Flag Problem---------\r\n");
+        testDutchNationalFlag();
         printf("\r\n");
         return 0;
 }
