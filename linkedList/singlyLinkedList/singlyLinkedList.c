@@ -1,7 +1,7 @@
 #include "singlyLinkedList.h"
 /**
  * @brief 
- * Does various insert operations to the linked list based on the pos varible.
+ * Does various insert operations to the linked list based on the pos variable.
  * @param head: head pointer to the linked list.
  * @param val: value the new node should have.
  * @param pos: Where to insert the newNode, beginning, end or a custom location.
@@ -49,7 +49,7 @@ void insertNode(struct Node **head, int val, uint8_t pos, struct Node **customPo
     else if (pos == END)
     {
       /*Traverse to the end of the list.
-      Make apropriate connections.*/
+      Make appropriate connections.*/
       traverseList(&tmp, END, 0);
       newNode->next = NULL;
       tmp->next = newNode;
@@ -63,7 +63,7 @@ void insertNode(struct Node **head, int val, uint8_t pos, struct Node **customPo
  * Delete the node based on the value passed.
  * Or delete the first, last node, or the entire list
  * @param head: head node of the list
- * @param val: value of the corrosponding node to be deleted,only if CUSTOM pos is selected.
+ * @param val: value of the corresponding node to be deleted,only if CUSTOM pos is selected.
  * @param pos: First node, last node, or the entire list
  */
 void deleteNode(struct Node **head, int val, uint8_t pos)
@@ -149,8 +149,8 @@ void printList(struct Node **head)
  * or at the node with a custom position, assuming there are no duplicates.
  * @param head : pointer to the head
  * @param pos: till which node traversal is needed, end or custom
- * @param customVal: custom value till where the traversal is needed, asuuming no duplicate
- * if there are duplicates, the function will traverse till the first occurance.
+ * @param customVal: custom value till where the traversal is needed, assuming no duplicate
+ * if there are duplicates, the function will traverse till the first occurrence.
  */
 void traverseList(struct Node **head, uint8_t pos, int customVal)
 {

@@ -31,7 +31,7 @@ int main()
         testDutchNationalFlag();
         printf("\r\n");
         #endif
-        printf ("-------All zeroes to the end of array Problem---------\r\n");
+        printf ("-------All zeroes to the end and front of array Problem---------\r\n");
         testZerosToTheEnd();
         printf("\r\n");
         return 0;
