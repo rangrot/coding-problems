@@ -230,3 +230,52 @@ int is_list_even(listNode* head){
         even ^= 1;
     return even;
 }
+
+// stdio.h, string.h have been included for this problem.
+// You don't need any other header files.
+
+// Add any helper functions(if needed) above.
+
+int* find_spiral(int m, int n, int arr[m][n]){
+    /* allocate ouput array of size equal to total number of elements in the input matrix */
+    int* output_arr = (int *)calloc(m*n, sizeof(int));
+    // Add your code above this line. Do not modify any other code.
+    int rowStart = 0, rowEnd= m, colStart = 0, colEnd = n;
+    
+    int row = 0, col =0, i=0;
+    //End point will always be the mid of the matrix ie arr[m/2][n/2]
+    while(rowStart <= rowEnd && colStart <= colEnd)
+    {
+        while( row <= rowStart && col <= colEnd)
+        {
+            output_arr[i++] = arr[row][col];
+            col++;
+        }
+        
+        while(row <= rowEnd && col <= colEnd)
+        {
+            output_arr[i++] = arr[row][col];
+            row++;
+        }
+        
+        while(row == rowEnd && col >= colStart)
+        {
+             output_arr[i++] = arr[row][col];
+             col--;
+        }
+        
+        while(row >= rowStart+1 && col == colStart)
+        {
+             output_arr[i++] = arr[row][col];
+             row--;
+        }
+        
+        rowStart++;
+        colStart++;
+        rowEnd--;
+        colEnd--;
+    }
+
+    // Add your code below this line. Do not modify any other code.
+    return output_arr;
+}

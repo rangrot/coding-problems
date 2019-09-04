@@ -27,6 +27,7 @@
 #include "../linkedList/singlyLinkedList/singlyLinkedList.h"
 #include "../linkedList/mergeTwoSortedList/mergeTwoSortedList.h"
 #include "../sortingAlgorithms/sortingAlgorithms.h"
+#include "../trees/binaryTree/binaryTree.h"
 #include "../trees/buddyBitmap/buddyBitmap.h"
 
 

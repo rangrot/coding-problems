@@ -153,9 +153,32 @@ is_list_even(head) => 0
 --------------------------------------------------------------LEVEL2----------------------------------------------------------------------------------------
 ----------------------------------------------------------
 Q 1
+Write a function that takes in an array of ints and uses the Selection Sort algorithm to sort the array 'in place' in ascending order. The function should return the same in-place sorted array.
+Note: Selection sort offers improved performance over bubble sort for arrays with large number of elements. Where bubble sort accumulated the largest elements towards the end of the array, selection sort accumulates the smallest elements at the beginning of the array. See the hints and click the red colored links for additonal details on the algorithm.
+
+Examples: 
+
+selection_sort_array({1,5,2}, 3) -> {1,2,5}
+
+selection_sort_array({11},1) -> {11}
+
+selection_sort_array({}, 0) -> {}
+{} -> [Empty] Array 
 ----------------------------------------------------------
 ----------------------------------------------------------
 Q 2
+Given two strings - input1 and input2, determine if they are isomorphic.
+Two strings are isomorphic if the letters in one string can be remapped to get the second string. Remapping a letter means replacing all occurrences of it with another letter. The ordering of the letters remains unchanged. You can also think of isomorphism as it is used in chemistry - i.e. having the same form or overall shape. Target linear time and space complexity with your solution.
+
+Examples:
+
+Input 1 : css  
+Input 2 : dll
+Output  : 1
+
+Input 1 : css 
+Input 2 : dle
+Output  : 0
 ----------------------------------------------------------
 ----------------------------------------------------------
 Q 3
