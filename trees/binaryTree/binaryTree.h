@@ -8,7 +8,4 @@ typedef struct treeNode
     struct treenode *right;
 };
 
-
-
-
 #endif

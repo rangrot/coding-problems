@@ -20,7 +20,6 @@ void twoSumProblemSortedArrary(int arr[], int size, int X)
     }
     else if(sum < X)
     {
-
       start++;
     }
     else
